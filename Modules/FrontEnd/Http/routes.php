@@ -1,6 +1,14 @@
 <?php
 
-Route::group(['middleware' => 'web', 'namespace' => 'Modules\FrontEnd\Http\Controllers'], function()
-{
-    Route::get('/', 'FrontEndController@index');
+
+Route::get('/', function() {
+    return view('pages.home');
+});
+
+Route::get('about', function() {
+    return view('pages.about');
+});
+
+Route::get('register', function() {
+    return view('auth.register');
 });
