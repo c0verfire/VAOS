@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('content')
-    i am the ABOUT page
+    i the ABOUT page. Cambria Made Me Add This
 @endsection
